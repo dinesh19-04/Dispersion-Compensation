@@ -1,5 +1,4 @@
 # Dispersion-Compensation
-# Dispersion Compensation
 
 ## Objective
 Design and simulate a fiber optic system using dispersion-compensating fiber to reduce chromatic dispersion.
@@ -7,11 +6,8 @@ Design and simulate a fiber optic system using dispersion-compensating fiber to 
 ## Theory
 <img width="1398" height="500" alt="image" src="https://github.com/user-attachments/assets/a922bb4a-e871-4643-96a5-b78350cfb8d1" />
 
-
 Therefore, given target values for chromatic dispersion and attenuation loss plus specifications of the transmitter, fiber, and receiver, one can determine the lengths of the transmission fiber and the DCF by solving the above two equations simultaneously.
-
 ---
-
 ## Specifications
 - **Output power:** 0 dBm  
 - **Spectral width:** To be determined  
@@ -25,9 +21,7 @@ Therefore, given target values for chromatic dispersion and attenuation loss plu
 **DCF Parameters:**  
 - Chromatic dispersion factor: –200 ps/nm-km at 1550 nm  
 - Attenuation: 0.5 dB/km at 1550 nm  
-
 ---
-
 ## Calculations
 1. Determine the maximum allowable fiber loss  
 2. Determine the maximum allowable chromatic dispersion  
@@ -67,12 +61,15 @@ The main physical components of this layout are:
   - Optical waveforms at transmitter output, junction between fibers, and receiver input  
 
 ---
-
 ## Further Simulation and Analysis
 - Set the DCF length to 0 and run the simulation again.  
-- Record similar measurements for comparison.  
-
+- Record similar measurements for comparison.
+<img width="1210" height="906" alt="image" src="https://github.com/user-attachments/assets/e12562f8-aae4-4f1c-a369-8f01cd798a2d" />
+<img width="1218" height="920" alt="image" src="https://github.com/user-attachments/assets/acc25d8f-3afc-4b77-90ae-5b5ad77e4211" />
+<img width="1223" height="930" alt="image" src="https://github.com/user-attachments/assets/1b78b94d-4dd6-49dc-863e-21be636fa1af" />
 ---
 
 ## Conclusions
 Discuss the effectiveness of dispersion-compensating fiber and the ability of the calculations to engineer a viable system.
+<img width="1600" height="976" alt="image" src="https://github.com/user-attachments/assets/67fa9d59-4308-4fdd-870d-f5cb59722454" />
+
